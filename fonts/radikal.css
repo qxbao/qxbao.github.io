@@ -1,0 +1,42 @@
+	@font-face {
+  font-family: 'Radikal';
+  src: url('https://uploads-ssl.webflow.com/5aabfbb0b2d9ac916e4c45c8/5aaf71a6ca4ae1995048bf52_Radikal-UltraThin.otf') format('opentype'), url('https://uploads-ssl.webflow.com/5aabfbb0b2d9ac916e4c45c8/5aaf71a62e1ff9178679f367_Radikal-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Radikal';
+  src: url('https://uploads-ssl.webflow.com/5aabfbb0b2d9ac916e4c45c8/5aaf71a6af97837b67247067_Radikal-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Radikal';
+  src: url('https://uploads-ssl.webflow.com/5aabfbb0b2d9ac916e4c45c8/5aaf71a6ca4ae161cb48bf51_Radikal-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Radikal';
+  src: url('https://uploads-ssl.webflow.com/5aabfbb0b2d9ac916e4c45c8/5aaf71a6c776ccb48b8efe1a_Radikal-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Radikal';
+  src: url('https://uploads-ssl.webflow.com/5aabfbb0b2d9ac916e4c45c8/5aaf71a62e1ff9a20c79f365_Radikal-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Radikal';
+  src: url('https://uploads-ssl.webflow.com/5aabfbb0b2d9ac916e4c45c8/5aaf71a62e1ff96fba79f366_Radikal-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Radikal';
+  src: url('https://uploads-ssl.webflow.com/5aabfbb0b2d9ac916e4c45c8/5aaf71a63164e14212046716_Radikal-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
