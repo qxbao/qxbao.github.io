@@ -1,0 +1,21 @@
+#banner {
+    height: 100vh;
+}
+
+#banner-background {
+    height: 100%;
+    width: 100%;
+    background-image: url("../pic/vietnam.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -2;
+}
+#blur{
+	width:100%;
+	height:100%;
+	background: rgb(0,0,0,0.5);
+	position: absolute;
+	z-index: -1;
+}
