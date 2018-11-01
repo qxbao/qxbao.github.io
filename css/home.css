@@ -22,7 +22,7 @@
 }
 
 #banner>p.h1 {
-    padding-top: 245px;
+    padding-top: 20vh;
     font-family: Radikal;
     color: white;
 }
@@ -31,4 +31,35 @@
     font-family: Roboto;
     font-weight: 300;
     color: white;
+}
+
+#profile-picture {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    opacity: 0.8;
+    /*padding:20px;*/
+    border-radius: 100%;
+    border: 5px solid rgb(0, 0, 0, 0.5);
+}
+
+#more-info {
+    width: 240px;
+    height: 60px;
+    margin: 20px auto;
+    display: block;
+    background: none;
+    color: white;
+    border: .5px solid white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    transition:all .5s ease;
+}
+
+#more-info:hover {
+    box-shadow: 0px 60px rgb(255, 255, 255, 0.7) inset;
+    color: rgb(0, 0, 0, 0.8);
+    border-color: rgb(225, 225, 225, 0.7);
 }
