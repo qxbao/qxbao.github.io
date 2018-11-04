@@ -1,6 +1,7 @@
 body {
 	margin:0;
 	padding:0;
+    background:#4A235A;
 }
 
 header{
@@ -85,11 +86,15 @@ header>.header>p#quote {
     border: .5px solid white;;
     color: white;
     text-decoration: none !important;
-    padding: 15px 45px;
+    padding: 15px 40px;
     transition: all .5s ease;
     margin:70px;
 }
-
+@media (max-width: 575.98px) {
+    #more-info-a{
+    margin:20px 0 40px;
+    }
+}
 #more-info-a:hover {
     box-shadow: 0px 65px rgb(255, 255, 255, 0.7) inset;
     color: rgb(0, 0, 0, 0.8);
@@ -105,18 +110,8 @@ hr {
 }
 
 #get-uid{
-height: 100vh;
-}
-
-#get-uid-background{
-    width: 100%;
-    height:100vh;
-    background-image: url("../pic/jp.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    z-index:-2;
+background: #03152a;
+padding-bottom:120px;
 }
 
 #get-uid>.container>div>.title {
@@ -169,7 +164,7 @@ height: 100vh;
 }
 
 #get-uid>.container>.form>button {
-    margin: 40px auto 0 auto;
+    margin: 60px auto 0 auto;
     padding: 20px;
     width:40%;
     font-family: Roboto;
