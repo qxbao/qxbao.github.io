@@ -73,32 +73,9 @@
                 <div class="text-center form">
                     <input id="access-token" class="d-block d-sm-inline-block" type="text" placeholder="access token">
                     <input id="username" class="d-block d-sm-inline-block" type="text" placeholder="username">
-                    <button class="d-block" onclick="load_ajax()">XÁC NHẬN</button>
+                    <button class="d-block" onclick="load_ajax('#access-token','#username','#get-uid>.container>.result>p')">XÁC NHẬN</button>
                 </div>
             </div>
-        </div>
-        <script>
-        function load_ajax() {
-            var username = $('#username').val();
-            var access_token = $('#access-token').val();
-            $.ajax({
-                url: "https://graph.facebook.com/" + username + "?fields=id&access_token="+access_token,
-                type: "get",
-                dataType: "text",
-                data: {
-
-                },
-                success: function(result) {
-                    var res = result;
-                    var uid = res.match(/\d+/gm);
-                    $('#get-uid>.container>.result>p').html(uid);
-                },
-                error: function() {
-                    $('#get-uid>.container>.result>p').text("ERROR!");
-                }
-            });
-        }
-        </script>
         </div>
     </section>
     </div>
