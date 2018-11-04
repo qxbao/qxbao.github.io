@@ -3,8 +3,8 @@ body {
 	padding:0;
 }
 
-#header {
-    height: 100vh;
+header {
+height: 100vh;
 }
 
 #header-background {
@@ -26,13 +26,13 @@ body {
     z-index: -1;
 }
 
-#header>p.h1 {
+header>p.h1 {
     padding-top: 20vh;
     font-family: Radikal;
     color: white;
 }
 
-#header>p#quote {
+header>p#quote {
     font-family: Roboto;
     font-weight: 300;
     color: white;
