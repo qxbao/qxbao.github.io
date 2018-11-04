@@ -163,7 +163,7 @@ hr {
 
 }
 
-#get-uid>.container>.form>input:hover {
+#get-uid>.container>.form>input:hover, #get-uid>.container>.form>input:focus{
     box-shadow: none;
     border: none;
     transform: scaleX(1.1);
