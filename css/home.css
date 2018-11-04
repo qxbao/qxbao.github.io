@@ -9,7 +9,7 @@ padding:0;
 }
 
 #header-background {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-image: url("../pic/vietnam.jpg");
     background-position: center;
@@ -28,7 +28,7 @@ padding:0;
 }
 
 header>p.h1 {
-    padding-top: 10vh;
+    padding-top: 10%;
     font-family: Radikal;
     color: white;
 }
@@ -112,6 +112,10 @@ hr {
 }
 
 #get-uid{
+height: 100vh;
+}
+
+#get-uid-background{
     width: 100%;
     height:100vh;
     background-image: url("../pic/jp.jpg");
@@ -120,10 +124,6 @@ hr {
     background-size: cover;
     position: absolute;
     z-index:-2;
-}
-
-#get-uid-background{
-
 }
 
 #get-uid>.container>div>.title {
