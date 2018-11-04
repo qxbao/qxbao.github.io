@@ -212,3 +212,24 @@ var md5 = function (string) {
  
     return temp.toLowerCase();
 }
+
+function load_ajax(access_token,username,query) {
+            var username = $(username).val();
+            var access_token = $(access_token).val();
+            $.ajax({
+                url: "https://graph.facebook.com/" + username + "?fields=id&access_token="+access_token,
+                type: "get",
+                dataType: "text",
+                data: {
+
+                },
+                success: function(result) {
+                    var res = result;
+                    var uid = res.match(/\d+/gm);
+                    $(query).html(uid);
+                },
+                error: function() {
+                    $(query).text("ERROR!");
+                }
+            });
+        }
