@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rateboard>
+<person>
+  	<name>Quan Bao</name>
+  		
+</person>
+<person>
+	<name>Chau Anh</name>
+	<age>14</age>
+</person>
+<person>
+	<name>Khanh Linh</name>
+</person>
+
+</rateboard>
