@@ -1,0 +1,18 @@
+*{
+transition: .5s all;
+}
+
+a.nav-link {
+    color: rgb(0, 0, 0, 0.5);
+    font-family: Proxima Soft;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+a.nav-link:hover{
+	color:black;
+}
+
+.active {
+    color: rgb(0, 0, 0) !important;
+}
