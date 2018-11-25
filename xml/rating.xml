@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rateboard>
 <person>
-  	<name>Quan Bao</name>
-  		
+  	<name>Quân Bảo</name>
+	<description>Éc đừng nhập tên mình :&lt;</description>  		
 </person>
 <person>
 	<name>Chau Anh</name>
-	<age>14</age>
+	<description></description>
 </person>
 <person>
 	<name>Khanh Linh</name>
+	<description></description>
 </person>
 
 </rateboard>
