@@ -29,13 +29,20 @@
         function myFunction(xml) {
             name = $("#name-check").val();
             var xmlDoc = xml.responseXML;
-            var query = xmlDoc.getElementsByTagName("name");
-            for (i = 0; i < query.length; i++) {
-                if (query[i].childNodes[0].nodeValue == name) {
-                    var set = get_nextSibling(query[i]).childNodes[0].nodeValue;
+            var key = xmlDoc.getElementsByTagName("name");
+            var query2 = xmlDoc.getElementsByTagName("description");
+            var query3 = xmlDoc.getElementsByTagName("rate");
+            var query4 = xmlDoc.getElementsByTagName("forme");
+            var query5 = xmlDoc.getElementsByTagName("note");
+            for (i = 0; i < key.length; i++) {
+                if (key[i].childNodes[0].nodeValue == name) {
+                    var des = query2[i].childNodes[0].nodeValue;
+                    var rate = query3[i].childNodes[0].nodeValue;
+                    var forme = query4[i].childNodes[0].nodeValue;
+                    var note =  query5[i].childNodes[0].nodeValue;
                 }
             }
-            alert(set);
+        $('#result').html("<b>Nhận xét:</b> "+des+"<br/>"+"<b>Đánh giá:</b> "+rate+"/100"+"<br/>"+"<b>Bạn là: </b>"+forme+"<br/>"+"<b>Gửi bạn: </b>"+note);
         }
     }
     </script>
