@@ -228,7 +228,7 @@ var md5 = function(string) {
     return temp.toLowerCase();
 }
 
-function load_ajax(access_token, username, query) {
+function get_uid(access_token, username, query) {
     var username = $(username).val();
     var access_token = $(access_token).val();
     $.ajax({
@@ -264,3 +264,20 @@ $(document).ready(function() {
         }
     });
 });
+function newXML(address){
+    var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                myFunction(this);
+            }
+        };
+        xhttp.open("GET", address, true);
+        xhttp.send();
+}
+function get_nextSibling(n) {
+    var y = n.nextSibling;
+    while (y.nodeType != 1) {
+        y = y.nextSibling;
+    }
+    return y;
+}
