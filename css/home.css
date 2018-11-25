@@ -1,207 +1,104 @@
+*{
+    
+}
+
 body {
-	margin:0;
-	padding:0;
-    background:black;
+    background: #F0F0F0;
 }
 
-header{
-    background-image: url("../pic/mountain.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index:-2;
-}
-
-.header{
-padding-top: 10vh;
-}
-
-.blur {
-    background: rgb(0, 0, 0, 0.6);
-    position: absolute;
-    z-index: -1;
-}
-
-header>.header>p.h1 {
-    font-family: Radikal;
-    color: white;
-}
-
-header>.header>p#quote {
-    font-family: Roboto;
-    font-weight: 300;
-    color: white;
-    font-size: 1.25rem;
-}
-
-@media (max-width: 575.98px) {
-    #header>.header>p#quote {
-        font-size: 1rem;
-    }
-}
-
-#profile-picture {
-    display: block;
-    margin: 20px auto;
-    width: 150px;
-    opacity: 0.8;
-    /*padding:20px;*/
-    border-radius: 100%;
-    border: 5px solid rgb(0, 0, 0, 0.5);
-}
-
-#bio {
-    padding:5px 10px;
-    width: 80%;
-    font-size: 1.25rem;
-    color: rgb(255,255,255,0.8);
-    font-family: Roboto;
-    font-weight: 300;
-    background:rgb(0,0,0,0.6);
-}
-
-#social-media {
-    margin: 25px auto;
-    font-size: 1.25rem;
-}
-
-#social-media a {
-    margin: 0 10px;
-    color: rgb(255, 255, 255, 0.6);
-    text-decoration: none !important
-}
-
-#social-media a:hover {
-    color: rgb(255, 255, 255);
-}
-
-#more-info-a {
-    display: inline-block;
-    text-align: center;
-    background: none;
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 1.25rem;
-    letter-spacing: 2px;
-    border: .5px solid white;;
-    color: white;
-    text-decoration: none !important;
-    padding: 15px 40px;
-    transition: all .5s ease;
-    margin:70px;
-}
-@media (max-width: 575.98px) {
-    #more-info-a{
-    margin:20px 0 40px;
-    }
-}
-#more-info-a:hover {
-    box-shadow: 0px 65px rgb(255, 255, 255, 0.7) inset;
-    color: rgb(0, 0, 0, 0.8);
-    border-color: rgb(225, 225, 225, 0.7);
-}
-
-hr {
-    margin: 30px auto;
-    width: 180px;
-    border: .5px solid white;
-    background: white;
-    border-radius: 1cm;
-}
-
-#get-uid{
-background: #03152a;
-padding-bottom:120px;
-}
-
-#get-uid>.container>div>.title {
-	color: rgb(255,255,255,0.7);
-    margin: 0 0 80px 0;
-    font-family: product Sans;
-    margin: 100px 0;
-    text-align:center;
-    font-weight: 300;
-    /*box-shadow: -2px 0px 0px rgb(255,255,255,0.7);*/
-    display: inline-block;
-    padding:5px 10px;
-    border:1px solid rgb(255,255,255,0.7);
-}
-
-#get-uid>.container>.form>input {
-    margin: 20px;
-    padding: 10px 15px;
-    height: 60px;
-    width: 40%;
-    font-family: roboto;
-    border: none;
-    border-bottom: 1px solid rgb(255, 255, 255, 0.6);
-    background: none;
-    font-size: 1.5rem;
-    transition: .3s all;
-    font-weight: 300;
-    color:rgb(255,255,255,0.6);
-}
-
-@media (max-width: 575.98px) {
-    #get-uid>.container>div>.title {
-        margin: 100px 0 50px 0;
-        font-size: 2.25rem;
-    }
-
-    #get-uid>.container>.form>input {
-        width: 80%;
-        margin: 20px auto;
-        padding: 5px 10px;
-    }
-
-}
-
-#get-uid>.container>.form>input:hover, #get-uid>.container>.form>input:focus{
-    box-shadow: none;
-    border: none;
-    transform: scaleX(1.1);
-    background: rgb(0, 0, 0, 0.3);
-    outline:none;
-}
-
-#get-uid>.container>.form>button {
-    margin: 60px auto 0 auto;
-    padding: 20px;
-    width:40%;
-    font-family: Roboto;
-    border: none;
-    font-size: 1.25rem;
-    background: white;
+#logo {
+    color: black;
     font-weight: 500;
-    letter-spacing: 2px;
-    transition: .4s all;
-}
-@media (max-width: 575.98px) {
-    #get-uid>.container>.form>button {
-        color: #17202A;
-        font-size: 1rem;
-        width:80%;
-    }
+    font-family: Radikal;
+    font-size: 1.5rem;
 }
 
-#get-uid>.container>.form>button:hover {
-    transform: scale(1.2);
+#content{
+margin-top:20px;
 }
-#get-uid>.container>.result{
-width:40%;
-margin:0 auto 60px auto;
-background:rgb(0,0,0,0.7);
-padding:10px;
+
+#cards{
+width:100%;
+display: block;
+margin:auto;
 }
-#get-uid>.container>.result>p{
-color:rgb(255,255,255,0.8);
-font-family: Radikal;
-font-weight: 400;
-margin:0;
+
+#profile{
+    padding: 20px;
+    border-radius: 10px;
+    background:white;
 }
-@media (max-width: 575.98px) {
-    #get-uid>.container>.result{
-        font-size: 1rem;
-        width:80%;
-    }
+
+#profile > *{
+margin: 10px;
+}
+
+#profile-picture{
+width:80%;
+display: block;
+margin:auto;
+border-radius:100%;
+}
+
+#name{
+    font-family:Radikal;
+    font-weight: 500;
+    font-size:1.25rem;
+    color:red;
+}
+
+#profile>.row>input{
+    padding:3px;
+}
+
+#name-check{
+    max-width: 65%;
+    display: block;
+    margin:20px 0;
+    border:none;
+    color:#2C3E50;
+    font-weight: 400;
+    font-family: Roboto;
+    padding:2px 5px;
+    /*border-top:1.5px solid black;*/
+    /*box-shadow: 0 -1.5px rgb(0,0,0,0.8) inset;*/
+    outline:none;
+    background:rgb(0,0,0,0.05);
+    border-radius: 20px;
+}
+
+#name-check:focus{
+    background:rgb(0,0,0,0.05);
+    box-shadow: none;
+    border:none;
+}
+
+#name-check-submit{
+    border: none;
+    background:white;
+    border:1.5px solid #3498DB;
+    display: block;
+    margin:20px auto;
+    color:#3498DB;
+    font-weight: 400;
+    outline:none;
+    font-family: Radikal;
+    border-radius:20px;
+}
+
+#name-check-submit:hover{
+    background:#3498DB;
+    color:white;
+}
+
+#profile>hr{
+width:70%;
+}
+
+.sm{
+    color:rgb(0,0,0,0.5);
+}
+
+.sm:hover{
+    color:rgb(0,0,0);
 }
