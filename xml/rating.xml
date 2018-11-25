@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rateboard>
-<person>
-  	<name>Quân Bảo</name>
-	<description>Éc đừng nhập tên mình :&lt;</description>  		
-</person>
-<person>
-	<name>Chau Anh</name>
-	<description></description>
-</person>
-<person>
-	<name>Khanh Linh</name>
-	<description></description>
-</person>
-
+    <person>
+        <name>Quân Bảo</name>
+        <description>Tự nhận xét bản thân thế lon nào được</description>
+        <rate>100</rate>
+        <forme>Tôi</forme>
+        <note>Bớt lười đi</note>
+    </person>
+    <person>
+        <name>Châu Anh</name>
+        <description>Xinh, đùi ngon(oops) với lại cao nữa</description>
+        <rate>75</rate>
+        <forme>Crush</forme>
+        <note>Châu Anh đấy à &#x1F625;? Không phải thì giữ bí mật dùm mình nha</note>
+    </person>
+    <person>
+        <name>Khánh Linh</name>
+        <description>Xinh, cao với lại hiền</description>
+        <rate>69</rate>
+        <forme>Mặt trời làm mình cảm nắng</forme>
+        <note>Không biết nói gì luôn &#x1F914; Xin lỗi vì đã chúc mừng sinh nhật</note>
+    </person>
+    <person>
+        <name>Bảo Ngọc</name>
+        <description>Lùn lùn đáng yêu, mỗi tội tính hơi cục</description>
+        <rate>55</rate>
+        <forme>Đối tượng sờ má</forme>
+        <note>Con gái như cậu mới tuyệt, đấm đá chứ không cấu véo &#x1F44D;</note>
+    </person>
+    <person>
+        <name>Phong Thái</name>
+        <description>Mồm hôi, lười học với lại hay được phò thích</description>
+        <rate>80</rate>
+        <forme>Bạn thân</forme>
+        <note>Địt mẹ tao chỉ thắc mắc bao giờ mồm mày mới hết hôi &#x1F642;???</note>
+    </person>
+    <person>
+        <name>Sơn Anh</name>
+        <description>Đẹp trai, hơi thần kinh</description>
+        <rate>62</rate>
+        <forme>Bạn khá thân</forme>
+        <note>Con bò hãm lồn bỏ mẹ đéo hiểu sao mày vẫn dính vào được</note>
+    </person>
+    <person>
+        <name>Minh Tùng</name>
+        <description>Ngủ nhiều, lười học với bắn PUBG ngu</description>
+        <rate>65</rate>
+        <forme>Bạn khá thân</forme>
+        <note>Nếu bây giờ mày vẫn chưa cố gắng thì nên cầu nguyện cho tương lai đi</note>
+    </person>
 </rateboard>
