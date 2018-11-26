@@ -1,9 +1,9 @@
-*{
-    
-}
-
 body {
     background: #F0F0F0;
+}
+
+.shadow{
+    box-shadow:rgb(0,0,0,0.294) 0 0 7px -2px;
 }
 
 #logo {
@@ -93,6 +93,7 @@ border-radius:100%;
 
 #profile>hr{
 width:70%;
+margin:20px auto;
 }
 
 .sm{
