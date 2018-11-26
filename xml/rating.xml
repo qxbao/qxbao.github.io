@@ -5,7 +5,7 @@
         <description>Tự nhận xét bản thân thế lon nào được</description>
         <rate>100</rate>
         <forme>Tôi</forme>
-        <note>Bớt lười đi</note>
+        <note>Sắp chết chưa?</note>
     </person>
     <person>
         <name>Châu Anh</name>
@@ -17,20 +17,20 @@
     <person>
         <name>Khánh Linh</name>
         <description>Xinh, cao với lại hiền</description>
-        <rate>69</rate>
+        <rate>65</rate>
         <forme>Mặt trời làm mình cảm nắng</forme>
         <note>Không biết nói gì luôn &#x1F914; Xin lỗi vì đã chúc mừng sinh nhật</note>
     </person>
     <person>
         <name>Bảo Ngọc</name>
         <description>Lùn lùn đáng yêu, mỗi tội tính hơi cục</description>
-        <rate>55</rate> 
+        <rate>50</rate> 
         <forme>Đối tượng sờ má</forme>
-        <note>Con gái như cậu mới tuyệt, đấm đá chứ không cấu véo &#x1F44D;</note>
+        <note>Sờ má cái mà đánh đau dữ &#x1F44D;</note>
     </person>
     <person>
         <name>Phong Thái</name>
-        <description>Mồm hôi, lười học với lại hay được phò thích</description>
+        <description>Mồm hôi, lười học, hay được phò thích</description>
         <rate>80</rate>
         <forme>Bạn thân</forme>
         <note>Địt mẹ tao chỉ thắc mắc bao giờ mồm mày mới hết hôi &#x1F642;???</note>
@@ -48,5 +48,54 @@
         <rate>65</rate>
         <forme>Bạn khá thân</forme>
         <note>Nếu bây giờ mày vẫn chưa cố gắng thì nên cầu nguyện cho tương lai đi</note>
+    </person>
+    <person>
+        <name>Thanh Quang</name>
+        <description>Da đen, học nhiều đéo khôn</description>
+        <rate>57</rate>
+        <forme>Bạn kiêm giúp việc</forme>
+        <note>Lên cấp 3 đừng đi làm giúp việc nữa nghen mày</note>
+    </person>
+    <person>
+        <name>Châu Nguyên</name>
+        <description>Lùn, hơi xinh với lại má mềm</description>
+        <rate>60</rate>
+        <forme>Bạn</forme>
+        <note>Con lùn &#x1F60F;</note>
+    </person>
+    <person>
+        <name>Hoàng Anh</name>
+        <description>Xấu như chó, bú được con cu thì vênh váo</description>
+        <rate>20</rate>
+        <forme>Con phò</forme>
+        <note>20 điểm bố thí cho cái chăm học của mày đấy &#x1F60F;</note>
+    </person>
+    <person>
+        <name>Thu Trang</name>
+        <description>Mặt phẳng lì, xinh nhân tạo</description>
+        <rate>55</rate>
+        <forme>Bạn</forme>
+        <note>Cho tao sờ má là rất tốt :)))</note>
+    </person>
+    <person>
+        <name>Minh Duy</name>
+        <description>Con heo gay, mồm hôi với ngáy to vãi lồn</description>
+        <rate>50</rate>
+        <forme>Bạn</forme>
+        <note>Trưa ngáy ăn vả là chuẩn rồi còn phàn nàn :))</note>
+    </person>
+    <person>
+        <name>Hà Chi</name>
+        <description>Xinh, hơi mập</description>
+        <rate>40</rate>
+        <forme>Hơi quen</forme>
+        <note>Lỡ tay sờ má ny David :)</note>
+    </person>
+    <person>
+        <name>Ngân Hà</name>
+        <description>Lùn, ngực to, má mềm</description>
+        <rate>50</rate>
+        <forme>Bạn</forme>
+        <note>Mách lẻo đéo có gì vui và đáng tự hào đâu</note>
     </person>
 </rateboard>
