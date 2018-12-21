@@ -51,7 +51,7 @@ border-radius:100%;
     padding:3px;
 }
 
-#name-check{
+#md5-encrypt{
     max-width: 65%;
     display: block;
     margin:20px 0;
@@ -64,16 +64,16 @@ border-radius:100%;
     /*box-shadow: 0 -1.5px rgb(0,0,0,0.8) inset;*/
     outline:none;
     background:rgb(0,0,0,0.05);
-    border-radius: 20px;
+    border-radius:5px;
 }
 
-#name-check:focus{
+#md5-encrypt:focus{
     background:rgb(0,0,0,0.05);
     box-shadow: none;
     border:none;
 }
 
-#name-check-submit{
+#md5-encrypt-submit{
     border: none;
     background:white;
     border:1.5px solid #3498DB;
@@ -83,12 +83,25 @@ border-radius:100%;
     font-weight: 400;
     outline:none;
     font-family: Radikal;
-    border-radius:20px;
+    border-radius: 5px;
 }
 
-#name-check-submit:hover{
+#md5-encrypt-submit:hover{
     background:#3498DB;
     color:white;
+}
+
+#hash{
+    max-width:100%;
+    display: block;
+    border:none;
+    color:#2C3E50;
+    font-weight: 400;
+    font-family: Roboto;
+    padding:2px 5px;
+    outline:none;
+    background:rgb(0,0,0,0.05);
+    border-radius: 20px;
 }
 
 #profile>hr{
