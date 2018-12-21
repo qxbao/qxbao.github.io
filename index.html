@@ -16,34 +16,12 @@
     <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
     <script src="js/function.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
-    function check_name() {
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                myFunction(this);
-            }
-        };
-        xhttp.open("GET", "xml/rating.xml", true);
-        xhttp.send();
-
-        function myFunction(xml) {
-            name = $("#name-check").val();
-            var xmlDoc = xml.responseXML;
-            var key = xmlDoc.getElementsByTagName("name");
-            var query2 = xmlDoc.getElementsByTagName("description");
-            var query3 = xmlDoc.getElementsByTagName("rate");
-            var query4 = xmlDoc.getElementsByTagName("forme");
-            var query5 = xmlDoc.getElementsByTagName("note");
-            for (i = 0; i < key.length; i++) {
-                if (key[i].childNodes[0].nodeValue == name) {
-                    var des = query2[i].childNodes[0].nodeValue;
-                    var rate = query3[i].childNodes[0].nodeValue;
-                    var forme = query4[i].childNodes[0].nodeValue;
-                    var note =  query5[i].childNodes[0].nodeValue;
-                }
-            }
-        $('#result').html("<b>Nhận xét:</b> "+des+"<br/>"+"<b>Đánh giá:</b> "+rate+"/100"+"<br/>"+"<b>Bạn là: </b>"+forme+"<br/>"+"<b>Gửi bạn: </b>"+note); 
-        }
+    function md5_encrypt(query){
+        var query = md5(query);
+        $('#hash').val(query);
+        $('#hash').select();
+        document.execCommand("copy");
+        $('#hash').val('');
     }
     </script>
 </head>
@@ -75,10 +53,11 @@
             <div class="col-12 col-lg-3 l-shadow" id="profile">
                 <img src="pic/profile-picture.jpg" id="profile-picture">
                 <p id="name" class="text-center">Quan Bao</p>
-                <p id="bio" class="text-left">Nhập tên của bạn vào form phía dưới được không? À, chỉ tên thôi nhé, đừng ghi họ </p>
+                <p id="bio" class="text-left">Bỏ qua cái box bên dưới và Ctrl + W là một phương án hay</p>
                 <div class="row">
-                    <input class="col-8 text-center" value='Quân Bảo' type="text" id="name-check">
-                    <input type="button" onclick="check_name()" value="Done" class="col-4" id="name-check-submit"></button>
+                    <input class="col-8 text-center" type="password" id="md5-encrypt">
+                    <input type="button" onclick="md5_encrypt($('#md5-encrypt').val())" value="Done" class="col-4" id="md5-encrypt-submit"></button>
+                    <input type="text" id="hash" class="col-12 text-center" id="md5-encrypt">
                 </div>
                 <div id="result"></div>
                 <hr>
