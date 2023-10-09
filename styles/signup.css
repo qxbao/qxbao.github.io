@@ -1,0 +1,78 @@
+:root {
+    --input-border: #aaaaaa;
+}
+
+.card {
+    border: none;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+.regisInput {
+    border: 2px solid var(--input-border);
+    border-radius: 5px;
+    background: transparent;
+    color: var(--text-color);
+    outline: none;
+}
+
+input[type="text"].regisInput:focus,
+input[type="number"].regisInput:focus,
+input[type="email"].regisInput:focus,
+select:focus {
+    border-color: #0579ae;
+    box-shadow: 0 0 2px #0579ae;
+}
+
+.invalid {
+    border-color: #d72020 !important;
+    color: #d72020;
+}
+
+#submitButton {
+    font-weight: 500;
+    background: var(--footer-sm-bg);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#submitButton:disabled {
+    filter: grayscale(.4);
+    color: #ebebeb;
+}
+
+#submitButton:not(:disabled):hover {
+    filter: brightness(0.9);
+}
+
+#submitButton:not(:disabled):active {
+    transform: scale(0.95);
+}
+
+#statusModalHeader {
+    border-radius: 0;
+    background: #21D192;
+    color: white;
+}
+
+#statusButton {
+    background: #21D192;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+#statusButton:hover {
+    filter: brightness(0.95);
+}
+
+#statusButton:active {
+    transform: scale(0.95);
+}
+
+select>option {
+    color: black !important;
+    background: white !important;
+}

@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+    .right-border {
+        border-right: 2px solid #9f9f9f;
+    }
+}
+
+.addButton {
+    background: transparent;
+    font-weight: bold;
+    transition: .1s all;
+    color: #EE243F;
+    border-radius: 50px;
+    border: 3px solid #EE243F;
+}
+
+.addButton:hover {
+    background: #EE243F;
+    color: var(--background-color)
+}
+
+.addButton:active {
+    transform: scale(0.9);
+}

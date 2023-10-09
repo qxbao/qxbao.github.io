@@ -1,0 +1,25 @@
+@media (min-width: 992px) {
+    #aboutPanel .left-border {
+        border-left: 2px solid grey !important;
+    }
+    #gallery::before {
+        content: "";
+        height: 0;
+        width: 0;
+        border-style: solid;
+        border-width: 0 0 20rem 10rem;
+        border-color: transparent transparent transparent var(--background-color);
+        position: absolute;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 1200px) {
+    #gallery::before {
+        border-width: 0 0 30rem 10rem;
+    }
+}
+
+#gallery {
+    position: relative;
+}

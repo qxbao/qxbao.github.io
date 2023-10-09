@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowBJJ · Home</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+
+<body theme="light">
+    <marquee class="p-2 text-black fw-normal" style="background: #eff23d;" direction="left"><b>CrowBJJ</b> offers a 15% tuition
+        discount for all students under the age of 22.</marquee>
+    <nav class="navbar navbar-expand-lg p-4 py-3 sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3 mb-0 invert" href="index.html"><img src="img/logo.png" width="50px" alt=""></a>
+            <button class="navbar-toggler invert border-0 togglerBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-color" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="tuition.html">Tuition Fee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="store.html">Gi Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="schedule.html">Schedule</a>
+                    </li>
+                </ul>
+                <div class="d-lg-flex align-items-center">
+                    <div class="form-check form-switch me-4 mb-3 mb-lg-0">
+                        <span class="ms-2 fw-normal">Dark Mode</span>
+                        <input class="form-check-input shadow-none" style="transform: scale(1.5);" type="checkbox"
+                            role="switch" id="darkModeSwitch">
+                    </div>
+                    <button class="btn1 fw-bold px-4 py-2 text-decoration-none"
+                        onclick="window.location = 'signup.html'">Sign me up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="col-12 col-lg-9 text-center">
+            <img class="col-6 col-md-3 invert not-selectable" src="img/logo.png">
+            <p class="display-3 d-none d-md-block fw-bold mb-0">Build up strength, endurance & combat skills with
+                CrowBJJ</p>
+            <p class="display-1 fw-bold d-md-none d-block mb-0">CrowBJJ Club</p>
+            <p class="text-secondary fw-normal lead py-2">Learn Brazilian Jiu-Jitsu with 20+ blackbelt instructors and
+                become the master of self-defense in only 6 months</p>
+            <button class="h3 py-3 px-5 btn1" onclick="window.location = 'signup.html';">Sign up now</button>
+            <p>15 slots remaining</p>
+        </div>
+    </header>
+    <div class="container py-5">
+        <div class="text-center mb-4 mb-5 m-auto col-12 col-lg-8 col-xl-6">
+            <img class="col-5 col-md-4 col-lg-4 mb-2 img-fluid not-selectable" src="img/bjj.png " alt=" ">
+            <p class="display-4 fw-bold mb-0">BRAZILIAN JIU-JITSU</p>
+            <p class="lh-sm">If you have never heard about Brazilian Jiu- Jitsu (BJJ), this section will let you know
+                you some important facts around BJJ.</p>
+        </div>
+        <div class="row" id="aboutPanel">
+            <div class="text-center text-lg-start col-12 mb-3 col-lg-6 pe-lg-5 py-2">
+                <i class="bi bi-clock-history display-5"></i>
+                <h1 class="fw-bold mb-4">HISTORY</h1>
+                <div class="fs-5 text-start">
+                    <p>Brazilian Jiu-Jitsu (BJJ) was developed from Ju-jutsu, a Japanese martial art, by the Gracies.
+                        Since 1917, there are many efforts of the Gracies, especially Carlos & Helio Gracie, has been
+                        spent to make BJJ the most effective martial
+                        art in the world.
+                    </p>
+                    <p>At the very beginning, BJJ showed it effectiveness by the dominance of Royce Gracie at Ultimate
+                        Fighting Championship (UFC). He has fought successfully against many larger opponents in other
+                        fighting styles, and won 1st, 2nd, & 4th
+                        UFC.
+                    </p>
+                    <p>Since then, BJJ has become a must-learn for MMA fighters, and also for people who interested in
+                        self-defense martial arts.</p>
+                </div>
+            </div>
+            <div class="text-center text-lg-start col-12 mb-3 col-lg-6 ps-lg-5 py-2 left-border">
+                <i class="bi bi-strava display-5"></i>
+                <h1 class="fw-bold mb-4">STYLE OF FIGHTING</h1>
+                <div class="fs-5 text-start">
+                    <p>Brazilian jiu-jitsu focuses on getting an opponent to the ground in order to neutralize possible
+                        strength or size advantages through ground fighting techniques and submission holds involving
+                        joint-locks and chokeholds. On the ground,
+                        physical strength can be offset or enhanced through proper grappling techniques. </p>
+                    <p>BJJ employs a wide range of takedown techniques to bring an opponent to the ground such as
+                        "pulling guard", which is not used in other combat sports such as judo or wrestling. Once the
+                        opponent is on the ground, a number of manoeuvres
+                        (and counter-manoeuvres) are available to manipulate the opponent into a suitable position for
+                        the application of a submission technique.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-lg-5 mb-4 d-flex align-items-center">
+                <div>
+                    <p class="display-3 fw-bold">GALLERY</p>
+                    <p class="fs-4">CrowBJJ club is a dynamic place with 1.000+ members all around the country. We
+                        train, roll and make progress together. Remember, <b>you can not learn BJJ alone</b>.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 mb-4">
+                <div class="carousel slide carousel-fade col-12 col-lg-11 ms-auto" data-bs-ride="carousel" id="gallery">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <img src="img/gallery1.jpg" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <img src="img/gallery2.jpg" alt="" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/gallery3.jpg" alt="" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#gallery"
+                        data-bs-slide="previous">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#gallery" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 text-center col-lg-5 col-xl-4 order-1 order-lg-0 mb-4">
+                <img class="col-9" src="img/gi.png" alt="">
+            </div>
+            <div class="col-12 col-lg-7 col-xl-8 order-0 order-lg-1 mb-4">
+                <p class="display-3 fw-bold">BUY OUR Gi</p>
+                <p class="fs-4">Gi Jiujitsu (Brazilian Jiu-Jitsu uniform) is made from cotton fiber, quite thick, the
+                    outer layer has a thorn pattern to make it easier to grasp when practicing and competing.</p>
+                <p class="fs-4">There are many techniques required a Gi to be performed, such as: Collar choke, Bow &
+                    Arrow choke, Loop choke,...</p>
+                <button class="mt-4 btn1 h3 px-4 py-3 w-100">Go to Gi Store</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid d-flex p-4 justify-content-center justify-content-md-between">
+            <div class="me-5 d-none d-md-block">
+                <span>Get in touch with us on social networks:</span>
+            </div>
+            <div>
+                <a class="text-color me-4" href="https://www.facebook.com/q2theb/"><i class="bi bi-facebook"></i></a>
+                <a class="text-color me-4" href="https://www.instagram.com/qnba0/"><i class="bi bi-instagram"></i></a>
+                <a class="text-color me-4" href="https://twitter.com/KeanuReevess_"><i class="bi bi-twitter"></i></a>
+                <a class="text-color" href="https://www.tiktok.com/@qaanbao"><i class="bi bi-tiktok"></i></a>
+
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row p-4 pt-5">
+                <div class="col-12 col-md mb-4 px-4 ps-lg-0">
+                    <div class="fw-semibold fs-5">CROWBJJ CLUB</div>
+                    <hr class="w-25 mb-4 mt-1 border-2">
+                    <div>The destination for people interested in grappling and MMA. Join us as soon as possible to
+                        become a master of self-defense.</div>
+                </div>
+                <div class="d-none d-md-block mb-4 col px-4"></div>
+                <div class="d-none d-md-block mb-4 col px-4">
+                    <div class="fw-semibold fs-5">LINKS</div>
+                    <hr class="w-25 mb-4 mt-1 border-2">
+                    <ul style="list-style-type: none; padding-left:0;">
+                        <li class="mb-3">
+                            <a class="text-color text-decoration-none" href="signup.html">Sign me up</a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="text-color text-decoration-none" href="tuition.html">Tuition fee</a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="text-color text-decoration-none" href="store.html">Buy Gi</a>
+                        </li>
+                        <li>
+                            <a class="text-color text-decoration-none" href="schedule.html">Schedule</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md px-4 pe-0">
+                    <div class="fw-semibold fs-5">CONTACT</div>
+                    <hr class="w-25 mb-4 mt-1 border-2">
+                    <ul style="list-style-type: none; padding-left:0;">
+                        <li class="mb-3">
+                            <div><i class="bi bi-house-fill me-1"></i> 7 Thien Quang, Hai Ba Trung dist., Hanoi</div>
+                        </li>
+                        <li class="mb-3">
+                            <div><i class="bi bi-envelope-fill me-1"></i> dquanbao@gmail.com</div>
+                        </li>
+                        <li class="mb-3">
+                            <div><i class="bi bi-telephone-fill me-1"></i> +84 123 456 789</div>
+                        </li>
+                        <li>
+                            <div><i class="bi bi-telephone-fill me-1"></i> +84 987 654 321</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center py-3">© 2023 Copyright. All rights reserved</div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowBJJ · Schedule</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/schedule.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg p-4 py-3 sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3 mb-0 invert" href="index.html"><img src="img/logo.png" width="50px" alt=""></a>
+            <button class="navbar-toggler invert border-0 togglerBtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-color" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="tuition.html">Tuition Fee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color" href="store.html">Gi Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color fw-bold" href="schedule.html">Schedule</a>
+                    </li>
+                </ul>
+                <div class="d-lg-flex align-items-center">
+                    <div class="form-check form-switch me-4 mb-3 mb-lg-0">
+                        <span class="ms-2 fw-normal">Dark Mode</span>
+                        <input class="form-check-input shadow-none" style="transform: scale(1.5);" type="checkbox"
+                            role="switch" id="darkModeSwitch">
+                    </div>
+                    <button class="btn1 fw-bold px-4 py-2 text-decoration-none"
+                        onclick="window.location = 'signup.html'">Sign me up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container py-5">
+        <div class="mb-4 pb-4">
+            <p class="display-3 text-center fw-bold mb-0">Our schedule</p>
+            <p class="fs-4 text-center text-secondary">Suitable for everybody</p>
+        </div>
+        <img class="invert img-fluid w-100 mb-4" src="img/schedule.png" alt="schedule">
+        <button class="btn1 fill rounded-5 py-2 px-4" onclick="window.open('img/schedule.png', '_blank')">Download</button>
+    </div>
+    <footer>
+        <div class="container-fluid d-flex p-4 justify-content-center justify-content-md-between">
+            <div class="me-5 d-none d-md-block">
+                <span>Get in touch with us on social networks:</span>
+            </div>
+            <div>
+                <a class="text-color me-4" href="https://www.facebook.com/q2theb/"><i class="bi bi-facebook"></i></a>
+                <a class="text-color me-4" href="https://www.instagram.com/qnba0/"><i class="bi bi-instagram"></i></a>
+                <a class="text-color me-4" href="https://twitter.com/KeanuReevess_"><i class="bi bi-twitter"></i></a>
+                <a class="text-color" href="https://www.tiktok.com/@qaanbao"><i class="bi bi-tiktok"></i></a>
+
+            </div>
+        </div>
+        <div class="container-fluid ">
+            <div class="row p-4 pt-5">
+                <div class="col-12 col-md mb-4 px-4 ps-lg-0">
+                    <div class="fw-semibold fs-5">CROWBJJ CLUB</div>
+                    <hr class="w-25 mb-4 mt-1 border-2">
+                    <div>The destination for people interested in grappling and MMA. Join us as soon as possible to
+                        become a master of self-defense.</div>
+                </div>
+                <div class="d-none d-md-block mb-4 col px-4"></div>
+                <div class="d-none d-md-block mb-4 col px-4">
+                    <div class="fw-semibold fs-5">LINKS</div>
+                    <hr class="w-25 mb-4 mt-1 border-2">
+                    <ul style="list-style-type: none; padding-left:0;">
+                        <li class="mb-3">
+                            <a class="text-color text-decoration-none" href="signup.html">Sign me up</a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="text-color text-decoration-none" href="tuition.html">Tuition fee</a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="text-color text-decoration-none" href="store.html">Buy Gi</a>
+                        </li>
+                        <li>
+                            <a class="text-color text-decoration-none" href="schedule.html">Schedule</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md px-4 pe-0">
+                    <div class="fw-semibold fs-5">CONTACT</div>
+                    <hr class="w-25 mb-4 mt-1 border-2">
+                    <ul style="list-style-type: none; padding-left:0;">
+                        <li class="mb-3">
+                            <div><i class="bi bi-house-fill me-1"></i> 7 Thien Quang, Hai Ba Trung dist., Hanoi</div>
+                        </li>
+                        <li class="mb-3">
+                            <div><i class="bi bi-envelope-fill me-1"></i> dquanbao@gmail.com</div>
+                        </li>
+                        <li class="mb-3">
+                            <div><i class="bi bi-telephone-fill me-1"></i> +84 123 456 789</div>
+                        </li>
+                        <li>
+                            <div><i class="bi bi-telephone-fill me-1"></i> +84 987 654 321</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center py-3">© 2023 Copyright. All rights reserved</div>
+    </footer>
+</body>
+</html>

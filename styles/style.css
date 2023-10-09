@@ -1,0 +1,132 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&display=swap');
+
+* {
+    transition: .3s all !important;
+}
+
+:root {
+    --background-color: white;
+    --text-color: black;
+    --footer-bg: #e5e5e5;
+    --footer-sm-bg: #21D192;
+    --footer-copyright-bg: #BDBFC1;
+}
+
+body[theme='dark'] {
+    --background-color: #141313;
+    --text-color: #f2f2f2;
+    --footer-bg: #1C2331;
+    --footer-sm-bg: #6351CE;
+    --footer-copyright-bg: #141B29;
+    font-weight: 300;
+}
+
+body[theme='dark'] .invert {
+    filter: invert(1);
+}
+
+body {
+    background: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Heebo', sans-serif;
+}
+
+.not-selectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+nav {
+    background-color: var(--background-color);
+    opacity: 0.95;
+}
+
+#darkModeSwitch:checked {
+    border: none;
+    background-color: rgb(73, 7, 134);
+}
+
+.togglerBtn {
+    box-shadow: none !important;
+    transition: .2s all;
+}
+
+.togglerBtn:focus {
+    transform: rotate(90deg);
+}
+
+/* button style */
+
+.btn1 {
+    background: transparent;
+    color: var(--text-color);
+    border: 3px solid var(--text-color);
+}
+
+.btn1:hover {
+    background: var(--text-color);
+    color: var(--background-color);
+}
+
+.btn1:active {
+    transform: scale(0.95);
+}
+
+.btn1.fill {
+    background: var(--text-color);
+    color: var(--background-color);
+    border: none;
+}
+
+.btn1.fill:hover {
+    transform: rotate(2deg)
+}
+
+.btn1.fill:active {
+    transform: scale(0.95);
+}
+
+.text-color {
+    color: var(--text-color) !important;
+}
+
+footer {
+    background: var(--footer-bg);
+    color: var(--text-color);
+}
+
+footer hr {
+    border-color: var(--footer-sm-bg);
+    opacity: 0.5;
+}
+
+footer>div:first-child {
+    background: var(--footer-sm-bg) !important;
+}
+
+footer>div:last-child {
+    background: var(--footer-copyright-bg) !important;
+}
+
+/* Bootstrap config */
+.nav-link {
+    transition: 0s all !important;
+}
+
+.nav-link:hover {
+    font-weight: 500;
+}
+
+a.text-decoration-none:hover {
+    text-decoration: none !important;
+}
+
+.container {
+    --bs-gutter-x: 3rem !important;
+}
