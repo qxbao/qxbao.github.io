@@ -130,3 +130,15 @@ a.text-decoration-none:hover {
 .container {
     --bs-gutter-x: 3rem !important;
 }
+
+.animationOnScroll {
+    transition: 1s all !important;
+    transform: translateX(-50px);
+    opacity: 0;
+}
+
+.animationOnScroll.inView {
+    transform: translateX(0);
+    transition: .3s all !important;
+    opacity: 1;
+}
