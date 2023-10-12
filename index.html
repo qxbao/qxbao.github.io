@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="scripts/script.js"></script>
-    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
 </head>
@@ -68,16 +68,19 @@
         </div>
     </header>
     <div class="container py-5 animationOnScroll">
-        <div class="text-center mb-4 mb-5 m-auto col-12 col-lg-8 col-xl-6">
+        <div class="text-center mb-0 mb-lg-5 m-auto col-12 col-lg-8 col-xl-6">
             <img class="col-5 col-md-4 col-lg-4 mb-2 img-fluid not-selectable" src="img/bjj.png " alt=" ">
-            <p class="display-4 fw-bold mb-0">BRAZILIAN JIU-JITSU</p>
-            <p class="lh-sm">If you have never heard about Brazilian Jiu-Jitsu (BJJ), this section will let you know
+            <p class="display-5 fw-bold mb-0">BRAZILIAN JIU-JITSU</p>
+            <p class="lh-sm text-secondary mb-0">If you have never heard about Brazilian Jiu-Jitsu (BJJ), this section will let you know
                 you some important facts around BJJ.</p>
+        </div>
+        <div class="text-center d-block d-lg-none">
+            <i class="bi bi-arrow-down text-secondary" style="font-size: 3rem;"></i>
         </div>
         <div class="row" id="aboutPanel">
             <div class="text-center text-lg-start col-12 mb-3 col-lg-6 pe-lg-5 py-2">
-                <i class="bi bi-clock-history display-5"></i>
-                <h1 class="fw-bold mb-4">HISTORY</h1>
+                <i class="bi bi-activity display-5"></i>
+                <h1 class="fw-bold mb-4">OUR HISTORY</h1>
                 <div class="fs-5" style="text-align: justify;">
                     <p>Brazilian Jiu-Jitsu (BJJ) was developed from Ju-jutsu, a Japanese martial art, by the Gracies.
                         Since 1917, there are many efforts of the Gracies, especially Carlos & Helio Gracie, has been
@@ -89,9 +92,12 @@
                         fighting styles, and won 1st, 2nd, & 4th
                         UFC.
                     </p>
-                    <p>Since then, BJJ has become a must-learn for MMA fighters, and also for people who interested in
+                    <p class="mb-0">Since then, BJJ has become a must-learn for MMA fighters, and also for people who interested in
                         self-defense martial arts.</p>
                 </div>
+            </div>
+            <div class="text-center d-block d-lg-none">
+                <i class="bi bi-arrow-down text-secondary" style="font-size: 3rem;"></i>
             </div>
             <div class="text-center text-lg-start col-12 mb-3 col-lg-6 ps-lg-5 py-2 left-border">
                 <i class="bi bi-strava display-5"></i>
@@ -110,11 +116,12 @@
             </div>
         </div>
     </div>
+    <hr>
     <div class="container py-5 animationOnScroll">
         <div class="row">
             <div class="col-12 col-lg-5 mb-4 d-flex align-items-center">
                 <div>
-                    <p class="display-3 fw-bold">GALLERY</p>
+                    <p class="display-2 fw-bold">GALLERY</p>
                     <p class="fs-4">CrowBJJ club is a dynamic place with 1.000+ members all around the country. We
                         train, roll and make progress together. Remember, <b>you can not learn BJJ alone</b>.</p>
                 </div>
@@ -147,13 +154,14 @@
             </div>
         </div>
     </div>
+    <hr>
     <div class="container py-5 animationOnScroll">
         <div class="row">
             <div class="col-12 text-center col-lg-5 col-xl-4 order-1 order-lg-0 mb-4">
                 <img class="col-9" src="img/gi.png" alt="">
             </div>
             <div class="col-12 col-lg-7 col-xl-8 order-0 order-lg-1 mb-4">
-                <p class="display-3 fw-bold">BUY OUR Gi</p>
+                <p class="display-2 fw-bold">BUY OUR Gi</p>
                 <p class="fs-4">Gi Jiujitsu (Brazilian Jiu-Jitsu uniform) is made from cotton fiber, quite thick, the
                     outer layer has a thorn pattern to make it easier to grasp when practicing and competing.</p>
                 <p class="fs-4">There are many techniques required a Gi to be performed, such as: Collar choke, Bow &
@@ -196,8 +204,11 @@
                         <li class="mb-3">
                             <a class="text-color text-decoration-none" href="store.html">Buy Gi</a>
                         </li>
-                        <li>
+                        <li class="mb-3">
                             <a class="text-color text-decoration-none" href="schedule.html">Schedule</a>
+                        </li>
+                        <li>
+                            <a class="text-color text-decoration-none" onclick="showDinh()">Terms & Policies</a>
                         </li>
                     </ul>
                 </div>

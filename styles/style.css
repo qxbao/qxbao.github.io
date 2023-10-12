@@ -132,13 +132,12 @@ a.text-decoration-none:hover {
 }
 
 .animationOnScroll {
-    transition: 1s all !important;
     transform: translateX(-50px);
     opacity: 0;
 }
 
 .animationOnScroll.inView {
     transform: translateX(0);
-    transition: .3s all !important;
+    transition: 1s all !important;
     opacity: 1;
 }

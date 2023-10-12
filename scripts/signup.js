@@ -9,6 +9,7 @@ const validation = {
     'phoneNumber': false,
 };
 
+
 const getSetTotal = () => {
     let total = $('#plan').val();
     total -= $("#proof").get(0).files.length > 0 ? total * 0.15 : 0;

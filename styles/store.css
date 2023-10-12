@@ -21,3 +21,13 @@
 .addButton:active {
     transform: scale(0.9);
 }
+
+@media (min-width: 1199.98px) {
+    .itemCol:hover {
+        transform: scale(1.05);
+        border: none;
+        background: var(--background-color);
+        box-shadow: 0 0 10px rgb(174, 174, 174);
+        border-radius: 20px;
+    }
+}
