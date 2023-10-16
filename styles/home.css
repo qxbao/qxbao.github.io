@@ -23,3 +23,7 @@
 #gallery {
     position: relative;
 }
+
+.insCard {
+    border-radius: 30px !important;
+}
