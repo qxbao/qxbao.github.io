@@ -1,7 +1,8 @@
 @media (min-width: 992px) {
     #aboutPanel .left-border {
-        border-left: 2px solid grey !important;
+        border-left: 1px solid grey !important;
     }
+
     #gallery::before {
         content: "";
         height: 0;
@@ -18,6 +19,10 @@
     #gallery::before {
         border-width: 0 0 30rem 10rem;
     }
+
+    .hTrans {
+        height: 35vh !important;
+    }
 }
 
 #gallery {
@@ -26,4 +31,34 @@
 
 .insCard {
     border-radius: 30px !important;
+    background: transparent;
+    color: var(--text-color);
+}
+
+.hTrans {
+    color: white;
+    height: 25vh;
+    width: 100%;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: scroll !important;
+    position: relative;
+}
+
+.hTrans:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.552);
+}
+
+#coach {
+    background: url(../img/bg/1.jpg);
+}
+
+#gal {
+    background: url(../img/bg/2.jpg);
 }

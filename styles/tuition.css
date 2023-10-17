@@ -1,10 +1,10 @@
 :root {
-    --card-header-bg: #F0C40D;
+    --card-header-bg: #f1c722;
     --card-body-bg: white;
+    --card-btn-bg: #efc520;
 }
 
 body[theme="dark"] {
-    --card-header-bg: #027dc5;
     --card-body-bg: #262525;
 }
 
@@ -24,6 +24,11 @@ body[theme="dark"] {
 
 .sub-list>li>span {
     color: var(--text-color);
+}
+
+.planBtn {
+    background: var(--card-btn-bg) !important;
+    color: black !important;
 }
 
 @media (min-width: 1200px) {

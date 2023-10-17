@@ -7,7 +7,6 @@ const setTheme = () => {
     }
 }
 
-
 $(function () {
     const $window = $(window);
     $window.on("scroll resize", () => {

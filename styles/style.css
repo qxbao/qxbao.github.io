@@ -14,7 +14,7 @@
 }
 
 body[theme='dark'] {
-    --background-color: #141313;
+    --background-color: #100f0f;
     --text-color: #f2f2f2;
     --footer-bg: #1C2331;
     --footer-sm-bg: #6351CE;
@@ -55,10 +55,6 @@ nav {
 .togglerBtn {
     box-shadow: none !important;
     transition: .2s all;
-}
-
-.togglerBtn:focus {
-    transform: rotate(90deg);
 }
 
 /* button style */
