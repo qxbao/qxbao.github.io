@@ -31,6 +31,27 @@ body[theme="dark"] {
     color: black !important;
 }
 
+input[type="phone"] {
+    outline: none !important;
+    border: none;
+    background: #ebebeb;
+}
+
+input[type="submit"] {
+    outline: none !important;
+    border: none;
+    background: var(--footer-sm-bg);
+    color: white;
+}
+
+input[type="submit"]:hover {
+    filter: brightness(0.9);
+}
+
+input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
 @media (min-width: 1200px) {
     .col-12.col-xl.mb-4:nth-child(2n+1) {
         padding-top: 30px;

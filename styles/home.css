@@ -56,9 +56,11 @@
 }
 
 #coach {
-    background: url(../img/bg/1.jpg);
+    background-image: url(../img/bg/1.jpg);
+    background-color: black;
 }
 
 #gal {
-    background: url(../img/bg/2.jpg);
+    background-image: url(../img/bg/2.jpg);
+    background-color: black;
 }
