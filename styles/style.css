@@ -6,7 +6,7 @@
     transition: .1s all;
 }
 
-button, a , .card {
+button, a , .card, .itemCol {
     transition: .3s all !important;
 }
 
