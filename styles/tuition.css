@@ -34,7 +34,7 @@ body[theme="dark"] {
 input[type="phone"] {
     outline: none !important;
     border: none;
-    background: #ebebeb;
+    background: #bcbcbc;
 }
 
 input[type="submit"] {

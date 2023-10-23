@@ -1,10 +1,14 @@
 const setTheme = () => {
     const darkModeStatus = $("#darkModeSwitch").is(":checked");
+    $("*").css("transition", "0.1s all !important");
+
     if (darkModeStatus) {
         $("body").attr("theme", "dark");
     } else {
         $("body").attr("theme", "light");
     }
+
+    // $("*").css("transition", ".3s all !important");
 }
 
 $(function () {

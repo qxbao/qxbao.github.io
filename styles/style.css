@@ -3,11 +3,15 @@
 @import url('https://cdn.rawgit.com/mfd/e7842774e037edf15919037594a79b2b/raw/665bdfc532094318449f1010323c84013d5af953/graphik.css');
 
 * {
+    transition: .1s all;
+}
+
+button, a , .card {
     transition: .3s all !important;
 }
 
 :root {
-    --background-color: white;
+    --background-color: #f1f1f1;
     --text-color: black;
     --footer-bg: #e5e5e5;
     --footer-sm-bg: #21D192;
